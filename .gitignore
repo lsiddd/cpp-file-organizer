@@ -1,0 +1,22 @@
+# Ignore build directories
+/build/
+meson-info/
+meson-logs/
+meson-private/
+
+# Ignore build artifacts and intermediate files
+*.ninja
+build.ninja
+compile_commands.json
+file_organizer.p
+file_organizer
+
+# Ignore IDE/editor-specific files (if applicable)
+.vscode/
+.idea/
+*.swp
+*~ 
+
+# Ignore other temporary files
+*.log
+
